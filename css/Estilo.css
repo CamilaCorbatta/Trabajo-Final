@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+body{background-image: url("../imagen/fondo1.png");}
+.btn-wsp{position: fixed;width: 55px;height: 55px;line-height: 55px;bottom: 30px;right: 30px;border-radius: 50px;text-align: center;}
+.titulo{font-family: 'Emilys Candy', serif; font-size: 350%}
+header{display: flex;justify-content: space-around;align-items: center;flex-wrap: wrap; height: 50%}
+nav{display: flex;flex-direction: row;justify-content:space-evenly;flex-wrap: wrap;}
+.navbut{ background: #CE1ECB ;cursor: pointer;border: none;padding: 16px 32px;color:#94F9CE ; font-size: 24px;font-weight: bold;position: relative;border-radius: 12px;}
+.navbut:hover::before {content: "";position: absolute;top: 0;left: 0;z-index: -1;width: 100%;height: 100%;background: linear-gradient(60deg, #FF0083 ,#0083FF , deeppink, #0083FF , #FF0083 , #0083FF , deeppink,#0083FF );background-size: 800%;border-radius: 20px;filter: blur(8px);animation: glowing 20s linear infinite;}
+.navle{font-family: 'Patrick Hand', cursive;color:black;text-decoration: none;font-size: 120%}
+main{float: left;; height:20%; ;width: 100%;writing-mode: horizontal-tb;display: block;}
+footer{ float: left;width: 100%;display: flex;justify-content: space-around; font-size: 150%;flex-wrap: wrap;}
+.redess{display: flex;justify-content: space-around;align-self: center;}
+.mision{width: 45%;text-align: justify; float: left; font-size: 150%; background-color: rgba(215, 255, 80,0.8);}
+.vision{width: 45%;text-align: justify; float: right; font-size: 150%;background-color: rgba(215, 255, 80,0.8);}
+.secmi{width: 100%;}
+.titu{text-align: center; font-family: 'Kavoon', serif;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Parte del css de adopcion*/
+.bodyap{background-image: url("../imagen/fondo2.png");}
+.adop{font-family: 'Milonga', serif;font-size: 350%;text-align: center;}
+.introap{font-family: cursive;font-size: 200%; text-align: justify;}
+.agradecimiento{font-size: 200%; background-color: rgba(80, 255, 250,0.8)}
+
+
+/*Parte del css de contacto*/
+.bodycont{background-image: url("../imagen/fondo3.png");}
+.formulario{width: 50%,}
+.ubicacion{width: 50%;float: left;}
+.cont{justify-content: space-around;align-items: center; text-align: center;}
+
+
+
+
+/*Parte del css de productos*/
+.bodyprod{background-image: url("../imagen/fondo4.png");}
+.catalogo{text-align: center;font-size: 250%; font-family: 'EB Garamond', serif;}
+.card-text{font-size: 150%;text-align: center;}

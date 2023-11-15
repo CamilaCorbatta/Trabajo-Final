@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Tienda de animales">
+    <meta name="keywords" content="animales,comida para animales,gatos,perros, petshop">
+    <meta name="author" content="Camila Corbatta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./imagen/icono.png">
+    <link rel="stylesheet" href="./css/Estilo.css">
+  </head>
+  <body class="bodycont">
+    <a href="https://web.whatsapp.com/" class="btn-wsp" target="_blank"><img class="btn-wsp"src="./imagen/whats.png"></a>
+    <header>
+      <img src="./imagen/icono2.png" alt="logo">
+      <h1 class="titulo">Michilandia</h1>
+      <div class="redes">
+        <a href="https://www.instagram.com/" target="_blank"><img src="./imagen/insta.png"></a>
+        <a href="https://m.facebook.com/login/?locale=es_ES" target="_blank"><img src="./imagen/face.png"></a>
+        <a href="https://twitter.com/?lang=es" target="_blank"><img src="./imagen/twitter.png"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="./imagen/youtube.png"></a>
+      </div>
+      </header>
+<nav>
+  <button class="navbut">
+    <a class="navle" href="index.html">Inicio</a>
+  </button>
+  <button class="navbut">
+    <a class="navle" href="adoptar.html">Adopción</a>
+  </button>
+<button class="navbut">
+  <a class="navle" href="productos.html">Productos</a>
+</button>
+<button class="navbut">
+<a class="navle" href="contacto.html">Contacto</a>
+</button>
+  </nav>
+  <article>
+    <p class="introap">Estamos aquí para responder tus preguntas, escuchar tus sugerencias o simplemente charlar sobre la fascinante relación entre humanos y animales. Ya sea que estés buscando información detallada sobre nuestras adopciones, tengas inquietudes sobre productos y servicios, o simplemente quieras compartir tus experiencias con nosotros, estamos listos para recibir tu mensaje. Tu opinión es valiosa, y estamos ansiosos por construir una comunidad donde cada voz cuente.</p>
+  </article>
+  <br>
+  <br>
+  <article class="cont">
+    <div class="ubicacion">
+      <h3>Nuestra Ubicación</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99611.4592698231!2d-62.33877257934073!3d-38.72106669806127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1700063516610!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+    <div class="formulario">
+     <form action="/contactanos" method="post" class="contact-form-box" enctype="multipart/form-data">
+		<fieldset>
+			<h3 class="page-subheading">Enviar un mensaje</h3>
+			<div class="clearfix">
+				<div class="col-xs-12 col-md-5">
+					<div class="form-group selector1">
+						<label for="id_contact">Asunto</label>
+											<div class="selector" id="uniform-id_contact" style="width: 244px;"><span style="width: 234px; user-select: none;">--Elija--</span><select id="id_contact" class="form-control" name="id_contact">
+							<option value="0">--Elija--</option>
+															<option value="3">Servicio de atención al cliente</option>
+															<option value="2">Pedidos</option>
+                              <option value="1">Adopción</option>
+													</select></div>
+					</div>
+						<label for="email">Correo electrónico</label>
+													<input class="form-control grey validate" type="text" id="email" name="from" data-validate="isEmail" value="">
+				<div class="col-xs-12 col-md-7">
+					<div class="form-group">
+						<label for="message">Mensaje</label>
+						<textarea class="form-control" id="message" name="message"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="submit">
+				<button type="button" class="btn btn-primary"><span>Enviar<i class="icon-chevron-right right"></i></span></button>
+			</div>
+		</fieldset>
+	</form>
+    </div>
+  </article>
+  <footer>
+    <div>
+    <h2>Siguenos</h2>
+    <div class="redess">
+    <a href="https://www.instagram.com/" target="_blank"><img src="./imagen/insta.png"></a>
+    <a href="https://m.facebook.com/login/?locale=es_ES" target="_blank"><img src="./imagen/face.png"></a>
+    <a href="https://twitter.com/?lang=es" target="_blank"><img src="./imagen/twitter.png"></a>
+    <a href="https://www.youtube.com/" target="_blank"><img src="./imagen/youtube.png"></a>
+  </div>
+  </div>
+  <br>
+  <div>
+    <button type="button" class="btn btn-success" onclick="datos()">Copyright</button>
+  </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="./js/javas.js"></script>
+  </body>
+</html>
